@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="referrer" content="same-origin">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<title>Alex & Michell</title>
+	<style>
+		@font-face {
+			font-family: "Love Seed";
+			src: url("/fonts/LoveSeed.ttf") format("truetype");
+		}
+
+		@font-face {
+			font-family: "zaoyiaishangni";
+			src: url("/fonts/zaoyiaishangni.ttf") format("truetype");
+		}
+
+
+		@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+		* {
+			box-sizing: border-box;
+		}
+
+
+		:root {
+			--bgcolor: #fffbee;
+			--txtcolor: #333;
+			--hdcolor: #333;
+			--brdcolor: #999;
+			--engfont: "Love Seed";
+			--chnfont: "zaoyiaishangni";
+		}
+
+		html,
+		input,
+		button {
+			font: min(max(2vw, 14pt), 24pt)/1.2 "Playfair Display";
+			font-weight: 400;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			background: var(--bgcolor);
+			text-align: center;
+			color: var(--txtcolor);
+		}
+
+		.content {
+			max-width: min(max(70vw, 720px), 1080px);
+			margin: 0 auto;
+			padding: 2em;
+		}
+
+		h1 {
+			color: var(--hdcolor);
+			font: 1em/1 var(--engfont), var(--chnfont);
+			font-weight: normal;
+			margin: 0;
+			padding: 0;
+		}
+
+		#logo {
+			padding: 3em 0 0;
+		}
+
+		h1 div {
+			position: relative;
+		}
+
+		h1 span {
+			display: block;
+		}
+
+		h1 .english.name {
+			font-size: 4em;
+			line-height: 1;
+			z-index: 2;
+		}
+
+		h1 .chinese.name {
+			font-size: 1.5em;
+			margin: -0.5em 0;
+		}
+
+		h1 .amp {
+			font-size: 3em;
+			margin: -0.3em 0;
+			z-index: 1;
+			color: #999;
+		}
+
+		h2 {
+			font: "Playfair Display";
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="logo">
+		<h1>
+			<div class="groom">
+				<span class="chinese name">郭子豪</span>
+				<span class="english name">Alex Koay</span>
+			</div>
+			<div class="amp">
+				&
+			</div>
+			<div class="bride">
+				<span class="english name">Michell Lee</span>
+				<span class="chinese name">李诗琪</span>
+			</div>
+		</h1>
+	</div>
+	<div class="content">
+		<h2>Afterparty</h2>
+		<h3>Snacks</h3>
+		<ul>
+			<li>Edamame</li>
+			<li>Lok Bak</li>
+			<li>Fried Wantan</li>
+			<li>Fried Pork</li>
+			<li>Fried Meat Ball</li>
+			<li>Belacan Chicken</li>
+		</ul>
+
+		<h3>Cocktails</h3>
+		<ul>
+			<li>Nü Er Hong</li>
+			<li>Wealthy Lotus</li>
+			<li>Not Shootable</li>
+		</ul>
+
+		<h3>Whisky</h3>
+		<ul>
+			<li>Monkey Shoulder</li>
+		</ul>
+
+		<h3>Non-alcoholic</h3>
+		<ul>
+			<li>Coca Cola</li>
+			<li>Other Mixers</li>
+		</ul>
+
+
+		<p style="font-size:0.8em;margin-top: 2rem;">Other snacks and drinks are available from the full menu at your
+			own cost.</p>
+	</div>
+</body>
+
+</html>
